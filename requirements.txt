@@ -1,0 +1,6 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+tqdm>=4.65
+# Optional (only required for scripts/uff_force_validation.py):
+# rdkit>=2025.03.5

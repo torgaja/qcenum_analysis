@@ -1,0 +1,42 @@
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Dataset archives and extracted molecule directories
+dataset_2node/
+dataset_3node/
+*.tar
+*.tar.gz
+*.tar.zst
+*.npz
+*.qcout
+*.fchk
+*.pkl
+*.xyz
+
+# Generated validation / analysis outputs
+analysis_output/
+verification_plots/
+*.csv
+*.csv.gz
+
+# LaTeX build artifacts (keep manuscript/*.tex, *.bib, and *.png tracked)
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.fdb_latexmk
+manuscript/*.fls
+manuscript/*.log
+manuscript/*.out
+manuscript/*.synctex.gz
+manuscript/*.pdf
+
+# OS & editor files
+.DS_Store
+*.swp
+*~
+.twilightproject
